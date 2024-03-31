@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nav-section{
+    position: sticky;
+    top: 0;
+}
+
+.nav-section nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+}
+
+.nav-section nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+}
+
+.image-section{
+    columns: 3 200px;
+    column-gap: 5px;
+}
+
+.image-section div img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+}
