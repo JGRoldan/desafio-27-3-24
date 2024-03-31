@@ -34,6 +34,7 @@ header {
 .image-section{
     columns: 3 200px;
     column-gap: 5px;
+    padding: 4px;
 }
 
 .image-section div img{
